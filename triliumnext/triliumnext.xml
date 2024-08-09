@@ -11,10 +11,10 @@
   <Privileged>false</Privileged>
   <Support></Support>
   <Project>https://github.com/TriliumNext/Notes</Project>
-  <Overview>TriliumNext Notes is an open-source, cross-platform hierarchical note taking application with focus on building large personal knowledge bases.
+  <Overview>TriliumNext Notes is an open-source, cross-platform hierarchical note taking application with focus on building large personal knowledge bases.</Overview>
   <Category>Productivity: Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <TemplateURL></TemplateURL>
+  <TemplateURL>https://github.com/lando786/unraid-templates/tree/main/triliumnext</TemplateURL>
   <Icon>https://raw.githubusercontent.com/lando786/unraid-templates/main/triliumnext/icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>

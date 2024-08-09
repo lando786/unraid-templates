@@ -7,8 +7,10 @@ This repository contains the xml file with docker the template to add Trilium Ne
 This template allows the installation of the Trilium Next Notes Server as a docker container from Unraid's Community Application.
 It contains the latest stable version.
 
-This templates configures the host port as `9999` since the default container port `8080` is wildly used.
-There are also two configuration paths: the `/home/node/trilium-data` directory with the default `/mnt/user/appdata/trilium` and the optional path for `/home/node/trilium-data/backup`. In case the path for the backups isn't provided they will be present in `/mnt/user/appdata/trilium/backup`. This definition is useful in case you want to setup a backup utility from the unraid pool and not the cache (where the `appdata` is stored).
+This templates configures the host port as `9999` as to hopefully not interfere with any existing installs.
+There are also two configuration paths: the `/home/node/trilium-data` directory with the default `/mnt/user/appdata/trilium` and the optional path for `/home/node/trilium-data/backup`. 
+
+In case the path for the backups isn't provided they will be present in `/mnt/user/appdata/trilium/backup`.
 
 ## Notes
 
